@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos de Futebol</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .video-item {
+            background: #fff;
+            margin: 15px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos de Futebol</h1>
+
+    <div class="video-item">
+        <h2>Vídeo 1: [Título do Vídeo]</h2>
+        <iframe src="https://www.youtube.com/embed/Fc-zuLHhrA0" frameborder="0" allowfullscreen></iframe>
+        <p><a href="https://www.youtube.com/watch?v=Fc-zuLHhrA0&list=PL73GcBDtFisfK8b593jdvXX_XMHBfIFSt&index=4" target="_blank">Assistir no YouTube</a></p>
+    </div>
+
+    <div class="video-item">
+        <h2>Vídeo 2: [Título do Vídeo]</h2>
+        <iframe src="https://www.youtube.com/embed/Rytm4aZv_rA" frameborder="0" allowfullscreen></iframe>
+        <p><a href="https://www.youtube.com/watch?v=Rytm4aZv_rA&list=PL73GcBDtFisfK8b593jdvXX_XMHBfIFSt&index=10" target="_blank">Assistir no YouTube</a></p>
+    </div>
+
+</body>
+</html>
